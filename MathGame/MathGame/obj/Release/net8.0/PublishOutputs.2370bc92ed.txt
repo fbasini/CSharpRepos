@@ -1,0 +1,5 @@
+C:\Users\felib\OneDrive - frgp.utn.edu.ar\Documentos\C#\C# Academy\MathGame.exe
+C:\Users\felib\OneDrive - frgp.utn.edu.ar\Documentos\C#\C# Academy\MathGame.dll
+C:\Users\felib\OneDrive - frgp.utn.edu.ar\Documentos\C#\C# Academy\MathGame.deps.json
+C:\Users\felib\OneDrive - frgp.utn.edu.ar\Documentos\C#\C# Academy\MathGame.runtimeconfig.json
+C:\Users\felib\OneDrive - frgp.utn.edu.ar\Documentos\C#\C# Academy\MathGame.pdb

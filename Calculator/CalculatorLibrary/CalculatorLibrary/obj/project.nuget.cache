@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "G2fhmnrQ5Cc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felib\\source\\repos\\CalculatorLibrary\\CalculatorLibrary\\CalculatorLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felib\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
