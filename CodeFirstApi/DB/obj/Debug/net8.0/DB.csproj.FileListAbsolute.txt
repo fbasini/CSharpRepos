@@ -1,0 +1,15 @@
+C:\Users\felib\source\repos\CodeFirstApi\DB\bin\Debug\net8.0\DB.deps.json
+C:\Users\felib\source\repos\CodeFirstApi\DB\bin\Debug\net8.0\DB.runtimeconfig.json
+C:\Users\felib\source\repos\CodeFirstApi\DB\bin\Debug\net8.0\DB.dll
+C:\Users\felib\source\repos\CodeFirstApi\DB\bin\Debug\net8.0\DB.pdb
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.csproj.AssemblyReference.cache
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.AssemblyInfoInputs.cache
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.AssemblyInfo.cs
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.csproj.CoreCompileInputs.cache
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.sourcelink.json
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.dll
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\refint\DB.dll
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.pdb
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\DB.genruntimeconfig.cache
+C:\Users\felib\source\repos\CodeFirstApi\DB\obj\Debug\net8.0\ref\DB.dll
