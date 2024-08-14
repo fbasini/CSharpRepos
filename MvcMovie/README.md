@@ -6,7 +6,7 @@
 - **CRUD Operations**: Add, Delete, Update, and Read movie information.
 - **Search Functionality**: Search movies by name.
 - **Entity Framework**: Code First approach for database management.
-- **SQL Server**: Uses SQL Server as the database, not SQLite.
+- **SQL Server**: Uses SQL Server as the database.
 
 ## Technologies
 - ASP.NET Core MVC (Model-View-Controller)
