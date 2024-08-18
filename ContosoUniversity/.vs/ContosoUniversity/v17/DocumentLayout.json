@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|c:\\users\\felib\\source\\repos\\contosouniversity\\contosouniversity\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\InstructorsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ContosoUniversity\\InstructorsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|c:\\users\\felib\\source\\repos\\contosouniversity\\contosouniversity\\models\\schoolviewmodels\\instructorindexdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\models\\schoolviewmodels\\instructorindexdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|c:\\users\\felib\\source\\repos\\contosouniversity\\contosouniversity\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|c:\\users\\felib\\source\\repos\\contosouniversity\\contosouniversity\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A47E943-2169-428A-A052-CF5F126D19EB}|ContosoUniversity\\ContosoUniversity.csproj|solutionrelative:contosouniversity\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Views\\Instructors\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContosoUniversity\\Views\\Instructors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Views\\Instructors\\Index.cshtml",
+              "RelativeToolTip": "ContosoUniversity\\Views\\Instructors\\Index.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAiwHoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T02:10:03.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InstructorsController.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\InstructorsController.cs",
+              "RelativeDocumentMoniker": "ContosoUniversity\\InstructorsController.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\InstructorsController.cs",
+              "RelativeToolTip": "ContosoUniversity\\InstructorsController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwDcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T02:07:24.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InstructorIndexData.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Models\\SchoolViewModels\\InstructorIndexData.cs",
+              "RelativeDocumentMoniker": "ContosoUniversity\\Models\\SchoolViewModels\\InstructorIndexData.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Models\\SchoolViewModels\\InstructorIndexData.cs",
+              "RelativeToolTip": "ContosoUniversity\\Models\\SchoolViewModels\\InstructorIndexData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T02:06:23.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "ContosoUniversity\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "ContosoUniversity\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAADwvzUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-17T02:03:51.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:233889444:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\CoursesController.cs",
+              "RelativeDocumentMoniker": "ContosoUniversity\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\ContosoUniversity\\ContosoUniversity\\CoursesController.cs",
+              "RelativeToolTip": "ContosoUniversity\\CoursesController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T02:03:16.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
