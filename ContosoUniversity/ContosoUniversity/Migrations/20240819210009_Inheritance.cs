@@ -116,6 +116,47 @@ namespace ContosoUniversity.Migrations
                 maxLength: 50,
                 nullable: false,
                 defaultValue: "");
+
+            // Recreate Student table
+            migrationBuilder.CreateTable(
+                name: "Student",
+                columns: table => new
+                {
+                    StudentID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LastName = table.Column<string>(maxLength: 50, nullable: false),
+                    FirstName = table.Column<string>(maxLength: 50, nullable: false),
+                    EnrollmentDate = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Student", x => x.StudentID);
+                });
+
+            // Similar approach for Instructor table
+            migrationBuilder.CreateTable(
+                name: "Instructor",
+                columns: table => new
+                {
+                    InstructorID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    LastName = table.Column<string>(maxLength: 50, nullable: false),
+                    FirstName = table.Column<string>(maxLength: 50, nullable: false),
+                    HireDate = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Instructor", x => x.InstructorID);
+                });
+
+            // Restore foreign keys
+            migrationBuilder.AddForeignKey(
+                name: "FK_Enrollment_Student_StudentID",
+                table: "Enrollment",
+                column: "StudentID",
+                principalTable: "Student",
+                principalColumn: "StudentID",
+                onDelete: ReferentialAction.Cascade);
         }
     }
 }

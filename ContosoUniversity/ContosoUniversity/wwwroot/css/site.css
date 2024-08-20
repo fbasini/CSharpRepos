@@ -20,3 +20,18 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.checkbox-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    margin-bottom: 10px;
+    max-width: 100%; 
+    width: 100%;
+}
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    white-space: nowrap; 
+}
