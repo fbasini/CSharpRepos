@@ -1,0 +1,12 @@
+﻿Errors:
+-Create new student
+-Edit student
+-Create new course
+-Edit course
+-Create course: create btn
+-Create instructor: courses checkboxes
+-Select instructor, select courses taugth: student enrolls repited
+-Create new instructor
+-Edit instructor
+-Create new department
+-Edit department
