@@ -20,7 +20,6 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies
-        // GET: Movies
         public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
             if (_context.Movie == null)
@@ -28,7 +27,7 @@ namespace MvcMovie.Controllers
                 return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
             }
 
-            // Use LINQ to get list of genres.
+            // LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Movie
                                             orderby m.Genre
                                             select m.Genre;
