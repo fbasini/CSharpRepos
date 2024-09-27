@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "PostmanCloneLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PostmanCloneLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PostmanCloneLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "PostmanCloneLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PostmanCloneLibrary/PostmanCloneLibrary.csproj",
+      "msbuildProject": "../PostmanCloneLibrary/PostmanCloneLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "PostmanCloneLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\felib\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\PostmanCloneLibrary.csproj": {
+              "projectPath": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\PostmanCloneLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

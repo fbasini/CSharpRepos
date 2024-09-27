@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostmanCloneLibrary", "PostmanCloneLibrary\PostmanCloneLibrary.csproj", "{5F062569-59A9-483E-844D-D79A7109DB12}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostmanCloneUI", "PostmanCloneUI\PostmanCloneUI.csproj", "{E35D00CF-D190-446E-B3AA-C6505144075E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5F062569-59A9-483E-844D-D79A7109DB12}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F062569-59A9-483E-844D-D79A7109DB12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F062569-59A9-483E-844D-D79A7109DB12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E35D00CF-D190-446E-B3AA-C6505144075E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E35D00CF-D190-446E-B3AA-C6505144075E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E35D00CF-D190-446E-B3AA-C6505144075E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E35D00CF-D190-446E-B3AA-C6505144075E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
