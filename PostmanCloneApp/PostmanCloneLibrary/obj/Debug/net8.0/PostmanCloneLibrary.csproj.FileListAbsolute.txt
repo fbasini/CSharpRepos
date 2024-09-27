@@ -1,0 +1,12 @@
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\bin\Debug\net8.0\PostmanCloneLibrary.deps.json
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\bin\Debug\net8.0\PostmanCloneLibrary.dll
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\bin\Debug\net8.0\PostmanCloneLibrary.pdb
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.AssemblyInfoInputs.cache
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.AssemblyInfo.cs
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.csproj.CoreCompileInputs.cache
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.sourcelink.json
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.dll
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\refint\PostmanCloneLibrary.dll
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\PostmanCloneLibrary.pdb
+C:\Users\felib\source\repos\PostmanCloneApp\PostmanCloneLibrary\obj\Debug\net8.0\ref\PostmanCloneLibrary.dll
