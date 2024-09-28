@@ -9,6 +9,7 @@ public partial class Dashboard : Form
     public Dashboard()
     {
         InitializeComponent();
+        cbHttpVerbSelection.SelectedIndex= 0;
     }
 
     private async void btnCallApi_Click(object sender, EventArgs e)
@@ -16,21 +17,27 @@ public partial class Dashboard : Form
         systemStaus.Text = "Calling API...";
         txtResults.Text = "";
 
-
-        // validate api url
+        // Validate URL
         if (!api.IsValidUrl(txtApi.Text))
         {
             systemStaus.Text = "Invalid URL";
             return;
         }
 
+        // Validate HTTP Verb
+        HttpAction action;
+        if (Enum.TryParse(cbHttpVerbSelection.SelectedItem!.ToString(), out action) == false)
+        {
+            systemStaus.Text = "Invalid HTTP Verb";
+            return;
+        }
 
 
         try
         {
-            systemStaus.Text = "Calling API...";
-
-            txtResults.Text = await api.CallApiAsync(txtApi.Text);
+            txtResults.Text = await api.CallApiAsync(txtApi.Text, txtBody.Text, action);
+            tcCallData.SelectedTab = resultsTab;
+            resultsTab.Focus();
 
             systemStaus.Text = "Ready";
         }

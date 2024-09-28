@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PostmanCloneUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+645616836e8843047d60bb2cbe2678d037def114")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8866edb801f0e994ac0039c30f9a1efc6ee106b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PostmanCloneUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PostmanCloneUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
