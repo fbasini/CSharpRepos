@@ -41,10 +41,13 @@
             txtBody = new TextBox();
             resultsTab = new TabPage();
             txtResults = new TextBox();
+            headersTab = new TabPage();
+            txtHeaders = new TextBox();
             statusStrip.SuspendLayout();
             tcCallData.SuspendLayout();
             bodyTab.SuspendLayout();
             resultsTab.SuspendLayout();
+            headersTab.SuspendLayout();
             SuspendLayout();
             // 
             // lblFormHeader
@@ -130,6 +133,7 @@
             // 
             tcCallData.Controls.Add(bodyTab);
             tcCallData.Controls.Add(resultsTab);
+            tcCallData.Controls.Add(headersTab);
             tcCallData.Location = new Point(74, 159);
             tcCallData.Name = "tcCallData";
             tcCallData.SelectedIndex = 0;
@@ -185,6 +189,29 @@
             txtResults.Size = new Size(928, 384);
             txtResults.TabIndex = 5;
             // 
+            // headersTab
+            // 
+            headersTab.Controls.Add(txtHeaders);
+            headersTab.Location = new Point(4, 37);
+            headersTab.Name = "headersTab";
+            headersTab.Size = new Size(934, 382);
+            headersTab.TabIndex = 2;
+            headersTab.Text = "Headers";
+            headersTab.UseVisualStyleBackColor = true;
+            // 
+            // txtHeaders
+            // 
+            txtHeaders.BackColor = Color.White;
+            txtHeaders.BorderStyle = BorderStyle.FixedSingle;
+            txtHeaders.Dock = DockStyle.Fill;
+            txtHeaders.Location = new Point(0, 0);
+            txtHeaders.Margin = new Padding(2);
+            txtHeaders.Multiline = true;
+            txtHeaders.Name = "txtHeaders";
+            txtHeaders.ScrollBars = ScrollBars.Both;
+            txtHeaders.Size = new Size(934, 382);
+            txtHeaders.TabIndex = 6;
+            // 
             // Dashboard
             // 
             AutoScaleDimensions = new SizeF(11F, 28F);
@@ -210,6 +237,8 @@
             bodyTab.PerformLayout();
             resultsTab.ResumeLayout(false);
             resultsTab.PerformLayout();
+            headersTab.ResumeLayout(false);
+            headersTab.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -229,5 +258,7 @@
         private TextBox txtBody;
         private TabPage resultsTab;
         private TextBox txtResults;
+        private TabPage headersTab;
+        private TextBox txtHeaders;
     }
 }

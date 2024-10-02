@@ -1,4 +1,5 @@
 using PostmanCloneLibrary;
+using System.Text.Json;
 
 namespace PostmanCloneUI;
 
@@ -16,6 +17,7 @@ public partial class Dashboard : Form
     {
         systemStaus.Text = "Calling API...";
         txtResults.Text = "";
+        txtHeaders.Text = "";
 
         // Validate URL
         if (!api.IsValidUrl(txtApi.Text))
@@ -32,10 +34,18 @@ public partial class Dashboard : Form
             return;
         }
 
-
+    
         try
         {
-            txtResults.Text = await api.CallApiAsync(txtApi.Text, txtBody.Text, action);
+            ApiResponse response = await api.CallApiAsync(txtApi.Text, txtBody.Text, action);
+
+            // Mostrar el contenido en el cuadro de texto de resultados
+            txtResults.Text = response.Body;
+
+            // Convertir los headers a JSON para mostrarlos
+            var headersJson = JsonSerializer.Serialize(response.Headers, new JsonSerializerOptions { WriteIndented = true });
+            txtHeaders.Text = headersJson;
+
             tcCallData.SelectedTab = resultsTab;
             resultsTab.Focus();
 

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmanclonelibrary\\apiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|solutionrelative:postmanclonelibrary\\apiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|solutionrelative:postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmanclonelibrary\\apiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|solutionrelative:postmanclonelibrary\\apiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|solutionrelative:postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmanclonelibrary\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|solutionrelative:postmanclonelibrary\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmanclonelibrary\\iapiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|solutionrelative:postmanclonelibrary\\iapiaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,27 +47,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\Enums.cs",
-              "RelativeDocumentMoniker": "PostmanCloneLibrary\\Enums.cs",
-              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\Enums.cs",
-              "RelativeToolTip": "PostmanCloneLibrary\\Enums.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "IApiAccess.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
+              "RelativeDocumentMoniker": "PostmanCloneLibrary\\IApiAccess.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
+              "RelativeToolTip": "PostmanCloneLibrary\\IApiAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T18:00:23.295Z",
+              "WhenOpened": "2024-09-30T19:43:47.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ApiAccess.cs",
               "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
               "RelativeDocumentMoniker": "PostmanCloneLibrary\\ApiAccess.cs",
               "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
               "RelativeToolTip": "PostmanCloneLibrary\\ApiAccess.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwCgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T16:09:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
+              "RelativeDocumentMoniker": "PostmanCloneUI\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
+              "RelativeToolTip": "PostmanCloneUI\\Dashboard.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:45:01.432Z",
               "EditorCaption": ""
             },
             {
@@ -81,19 +94,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T15:47:48.04Z",
               "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
-              "RelativeDocumentMoniker": "PostmanCloneUI\\Dashboard.cs",
-              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
-              "RelativeToolTip": "PostmanCloneUI\\Dashboard.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T15:45:01.432Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -7,7 +7,7 @@ public class ApiAccess : IApiAccess
 {
     private readonly HttpClient client = new();
 
-    public async Task<string> CallApiAsync(
+    public async Task<ApiResponse> CallApiAsync(
         string url, 
         string content, 
         HttpAction action = HttpAction.GET, 
@@ -18,17 +18,16 @@ public class ApiAccess : IApiAccess
         return await CallApiAsync(url, stringContent, action, formatOutput);
     }
 
-    public async Task<string> CallApiAsync(
+    public async Task<ApiResponse> CallApiAsync(
         string url, 
         HttpContent? content = null,
         HttpAction action = HttpAction.GET,
         bool formatOutput = true
-
     )
     {
         HttpResponseMessage? response;
 
-        switch(action)
+        switch (action)
         {
             case HttpAction.GET:
                 response = await client.GetAsync(url);
@@ -49,6 +48,8 @@ public class ApiAccess : IApiAccess
                 throw new ArgumentOutOfRangeException(nameof(action), action, null);
         }
 
+        var apiResponse = new ApiResponse();
+
         if (response.IsSuccessStatusCode)
         {
             string json = await response.Content.ReadAsStringAsync();
@@ -58,12 +59,16 @@ public class ApiAccess : IApiAccess
                 json = JsonSerializer.Serialize(jsonElement, new JsonSerializerOptions { WriteIndented = true });
             }
 
-            return json;
+            apiResponse.Body = json;
         }
         else
         {
-            return $"Error: {response.StatusCode}";
+            apiResponse.Body = $"Error: {response.StatusCode}";
         }
+
+        apiResponse.Headers = response.Headers.ToDictionary(h => h.Key, h => h.Value);
+
+        return apiResponse;
     }
 
 
