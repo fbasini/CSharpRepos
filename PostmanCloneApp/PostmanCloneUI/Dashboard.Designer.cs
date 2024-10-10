@@ -77,12 +77,12 @@
             txtApi.Location = new Point(243, 104);
             txtApi.Margin = new Padding(2);
             txtApi.Name = "txtApi";
-            txtApi.Size = new Size(708, 34);
+            txtApi.Size = new Size(735, 34);
             txtApi.TabIndex = 2;
             // 
             // btnCallApi
             // 
-            btnCallApi.Location = new Point(955, 106);
+            btnCallApi.Location = new Point(982, 106);
             btnCallApi.Margin = new Padding(2);
             btnCallApi.Name = "btnCallApi";
             btnCallApi.Size = new Size(61, 34);
@@ -137,7 +137,7 @@
             tcCallData.Location = new Point(74, 159);
             tcCallData.Name = "tcCallData";
             tcCallData.SelectedIndex = 0;
-            tcCallData.Size = new Size(942, 423);
+            tcCallData.Size = new Size(973, 423);
             tcCallData.TabIndex = 8;
             // 
             // bodyTab
@@ -146,7 +146,7 @@
             bodyTab.Location = new Point(4, 37);
             bodyTab.Name = "bodyTab";
             bodyTab.Padding = new Padding(3);
-            bodyTab.Size = new Size(934, 382);
+            bodyTab.Size = new Size(965, 382);
             bodyTab.TabIndex = 0;
             bodyTab.Text = "Body";
             bodyTab.UseVisualStyleBackColor = true;
@@ -161,7 +161,7 @@
             txtBody.Multiline = true;
             txtBody.Name = "txtBody";
             txtBody.ScrollBars = ScrollBars.Both;
-            txtBody.Size = new Size(928, 376);
+            txtBody.Size = new Size(959, 376);
             txtBody.TabIndex = 5;
             // 
             // resultsTab
@@ -192,9 +192,9 @@
             // headersTab
             // 
             headersTab.Controls.Add(txtHeaders);
-            headersTab.Location = new Point(4, 37);
+            headersTab.Location = new Point(4, 29);
             headersTab.Name = "headersTab";
-            headersTab.Size = new Size(934, 382);
+            headersTab.Size = new Size(934, 390);
             headersTab.TabIndex = 2;
             headersTab.Text = "Headers";
             headersTab.UseVisualStyleBackColor = true;
@@ -209,7 +209,7 @@
             txtHeaders.Multiline = true;
             txtHeaders.Name = "txtHeaders";
             txtHeaders.ScrollBars = ScrollBars.Both;
-            txtHeaders.Size = new Size(934, 382);
+            txtHeaders.Size = new Size(934, 390);
             txtHeaders.TabIndex = 6;
             // 
             // Dashboard

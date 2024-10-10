@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{5F062569-59A9-483E-844D-D79A7109DB12}|PostmanCloneLibrary\\PostmanCloneLibrary.csproj|solutionrelative:postmanclonelibrary\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|c:\\users\\felib\\source\\repos\\postmancloneapp\\postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E35D00CF-D190-446E-B3AA-C6505144075E}|PostmanCloneUI\\PostmanCloneUI.csproj|solutionrelative:postmancloneui\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -32,46 +32,6 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiAccess.cs",
-              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
-              "RelativeDocumentMoniker": "PostmanCloneLibrary\\ApiAccess.cs",
-              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
-              "RelativeToolTip": "PostmanCloneLibrary\\ApiAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-27T16:09:56.451Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IApiAccess.cs",
-              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
-              "RelativeDocumentMoniker": "PostmanCloneLibrary\\IApiAccess.cs",
-              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
-              "RelativeToolTip": "PostmanCloneLibrary\\IApiAccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:30:52.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ApiResponse.cs",
-              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiResponse.cs",
-              "RelativeDocumentMoniker": "PostmanCloneLibrary\\ApiResponse.cs",
-              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiResponse.cs",
-              "RelativeToolTip": "PostmanCloneLibrary\\ApiResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-02T16:20:13.211Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
@@ -90,13 +50,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "PostmanCloneLibrary\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiResponse.cs",
+              "RelativeToolTip": "PostmanCloneLibrary\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T17:40:42.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IApiAccess.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
+              "RelativeDocumentMoniker": "PostmanCloneLibrary\\IApiAccess.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\IApiAccess.cs",
+              "RelativeToolTip": "PostmanCloneLibrary\\IApiAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T19:38:56.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiAccess.cs",
+              "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
+              "RelativeDocumentMoniker": "PostmanCloneLibrary\\ApiAccess.cs",
+              "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneLibrary\\ApiAccess.cs",
+              "RelativeToolTip": "PostmanCloneLibrary\\ApiAccess.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAYwA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T16:09:56.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
               "RelativeDocumentMoniker": "PostmanCloneUI\\Dashboard.cs",
               "ToolTip": "C:\\Users\\felib\\source\\repos\\PostmanCloneApp\\PostmanCloneUI\\Dashboard.cs",
               "RelativeToolTip": "PostmanCloneUI\\Dashboard.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-27T15:45:01.432Z",
               "EditorCaption": ""

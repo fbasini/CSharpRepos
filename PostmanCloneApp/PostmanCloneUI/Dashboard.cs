@@ -34,15 +34,29 @@ public partial class Dashboard : Form
             return;
         }
 
-    
+        // Process headers
+        Dictionary<string, string>? headers = null;
         try
         {
-            ApiResponse response = await api.CallApiAsync(txtApi.Text, txtBody.Text, action);
+            if (!string.IsNullOrWhiteSpace(txtHeaders.Text))
+            {
+                headers = JsonSerializer.Deserialize<Dictionary<string, string>>(txtBody.Text);
+            }
+        }
+        catch (Exception ex)
+        {
+            systemStaus.Text = "Invalid Headers";
+            return;
+        }
 
-            // Mostrar el contenido en el cuadro de texto de resultados
+        //
+        try
+        {
+            ApiResponse response = await api.CallApiAsync(txtApi.Text, txtBody.Text, action, headers);
+
             txtResults.Text = response.Body;
 
-            // Convertir los headers a JSON para mostrarlos
+            // Convert headers to JSON
             var headersJson = JsonSerializer.Serialize(response.Headers, new JsonSerializerOptions { WriteIndented = true });
             txtHeaders.Text = headersJson;
 

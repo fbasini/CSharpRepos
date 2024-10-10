@@ -10,22 +10,32 @@ public class ApiAccess : IApiAccess
     public async Task<ApiResponse> CallApiAsync(
         string url, 
         string content, 
-        HttpAction action = HttpAction.GET, 
+        HttpAction action = HttpAction.GET,
+        Dictionary<string, string>? headers = null,
         bool formatOutput = true
     )
     {
         StringContent stringContent = new(content, Encoding.UTF8, "application/json");
-        return await CallApiAsync(url, stringContent, action, formatOutput);
+        return await CallApiAsync(url, stringContent, action, headers, formatOutput);
     }
 
     public async Task<ApiResponse> CallApiAsync(
         string url, 
         HttpContent? content = null,
         HttpAction action = HttpAction.GET,
+        Dictionary<string, string>? headers = null,
         bool formatOutput = true
     )
     {
         HttpResponseMessage? response;
+
+        if (headers != null)
+        {
+            foreach (var header in headers)
+            {
+                client.DefaultRequestHeaders.Add(header.Key, header.Value);
+            }
+        }
 
         switch (action)
         {
